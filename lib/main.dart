@@ -5,7 +5,10 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
 import 'dart:io';
 
-void main() => runApp(const InversionesApp());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(const InversionesApp());
+}
 
 class InversionesApp extends StatelessWidget {
   const InversionesApp({super.key});

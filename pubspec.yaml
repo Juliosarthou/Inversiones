@@ -2,7 +2,7 @@ name: inversiones
 description: "App de Inversiones JS"
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.1+4
 
 environment:
   sdk: ^3.10.7
